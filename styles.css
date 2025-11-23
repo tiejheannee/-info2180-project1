@@ -93,23 +93,9 @@ header nav a:hover{
 
 }
 
-.cards .card:nth-child(1) img {
-    content: url("images/card1.jpg"); 
-}
-
-.cards .card:nth-child(2) img {
-    content: url("images/card2.jpg");
-}
-
-
-.cards .card:nth-child(3) img {
-    content: url("images/card3.jpg");
-}
-
-.overview-hero-image{
-    background-image: url("images/hero.jpg");
+.overview-hero-image img{
     background-repeat: no-repeat; 
-    width: 400px;
+    width: 250px;
     height: 200px;
     background-size: contain;
     background-position: center;
@@ -160,15 +146,7 @@ header nav a:hover{
 
 .article-body h3{
     font-size: 18px;
-}
-
-.stories article:nth-child(2) img {
-    content: url("images/Article1.jpg");  
-
-}
-
-.stories article:nth-child(3) img {
-    content: url("images/Article2.jpg");
+    margin-right: 250px;
 }
 
 .stories article img{
